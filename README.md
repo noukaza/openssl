@@ -33,7 +33,7 @@ $ make q6
    OR
 $ sudo openssl rsautl -encrypt -in msg -out msgC -inkey publickey.pem -pubin 
 ```
-####  commande permettant de chiffrer avec aes en utilisant un mot de passe
+####  commande permettant de dechiffrer le message crypté en utilisant la cle public
 ```sh
 $ make q7
    OR
