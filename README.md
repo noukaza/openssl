@@ -6,39 +6,31 @@
 
 ```sh
 $ make q1
-OR
+   OR
 $ openssl genrsa -out keypar.pem 1024
 ```
 #### Donner la commande qui permet de visualiser le contenu du ficher "cé " en format text 
 ```sh
 $ make q2
-```
-OR
-```sh
+   OR
 $ openssl rsa -in keypar.pem -text -noout
 ```
 #### protéger la clé privé généré avec des3
 ```sh
 $ make q4
-```
-OR
-```sh
+   OR
 $ openssl rsa -in keypar.pem -des3 -out keyparCh.pem
 ```
 #### commande permettant de générer la clé publique
 ```sh
 $ make q5
-```
-OR
-```sh
+   OR
 $ openssl rsa -in keyparCh.pem -pubout -out publickey.pem 
 ```
 #### commande permettant de chiffrer un message sauvegarder dans le fichier msgC
 ```sh
 $ make q6
-```
-OR
-```sh
+   OR
 $ sudo openssl rsautl -encrypt -in msg -out msgC -inkey publickey.pem -pubin 
 ```
 
