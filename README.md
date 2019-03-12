@@ -1,12 +1,24 @@
 # openssl
 
-### exo 1
+## exo 1
 
+### Donner la commande qui genere une clé RSA de 1024 bit 
+
+```sh
+$ make q1
 ```
-make q1
+OR
+```sh
+$ openssl genrsa -out keypar.pem 1024
 ```
+
+### DOnner la commande qui permet de visualiser le contenu du ficher "cé " en format text 
+```sh
+$ make q2
 ```
-make q2
+OR
+```sh
+$ openssl rsa -in keypar.pem -text -noout
 ```
 ```
 make q4
