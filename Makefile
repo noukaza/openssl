@@ -4,3 +4,5 @@ q2:
 	openssl rsa -in keypar.pem -text -noout
 q4:
 	openssl rsa -in keypar.pem -des3 -out keyparCh.pem
+q5: 
+	openssl rsa -in keyparCh.pem -pubout -out publickey.pem 
