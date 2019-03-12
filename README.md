@@ -17,3 +17,7 @@ question 5
 ```
 make q5
 ```
+question 6
+```
+make q6
+```
