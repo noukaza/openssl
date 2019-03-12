@@ -1,4 +1,4 @@
-# openssl
+[![N|Solid](https://www.giveffect.com/home/images/assets/logo-ssl.png)](https://namrane.com)
 
 ## exo 1
 
@@ -45,8 +45,11 @@ $ make q8
    OR
 $ openssl enc -aes-256-cbc -pbkdf2 -in msg -out msgCaes -k passwordsss
 ```
-```
-make q9
+#### la commande permettant de chifferer un fichier en utilisant le chiffrement blowfich en mode CBC
+```sh
+$ make q9
+   OR
+$ openssl enc -d -aes-256-cbc -pbkdf2 -in msgCaes -k password
 ```
 ### exo 2
 ```
