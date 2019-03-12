@@ -1,4 +1,4 @@
-[![N|Solid](https://www.giveffect.com/home/images/assets/logo-ssl.png)](https://namrane.com)
+
 
 ## exo 1
 
