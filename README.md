@@ -6,9 +6,7 @@
 
 ```sh
 $ make q1
-```
 OR
-```sh
 $ openssl genrsa -out keypar.pem 1024
 ```
 #### Donner la commande qui permet de visualiser le contenu du ficher "cé " en format text 
