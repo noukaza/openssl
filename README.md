@@ -27,3 +27,12 @@ make q8
 make q9
 ```
 ### exo 2
+```
+make q10
+```
+```
+make q11
+```
+```
+make q12
+```
