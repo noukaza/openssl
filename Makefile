@@ -12,3 +12,6 @@ q7:
 	openssl rsautl -decrypt -in msgC -out resultmsg -inkey keypar.pem 
 q8:
 	openssl enc -aes-256-cbc -pbkdf2 -in msg -out msgCaes -k password
+q9: 
+	openssl enc -d -aes-256-cbc -pbkdf2 -in msgCaes -k password
+
