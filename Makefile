@@ -20,4 +20,15 @@ q11:
 	openssl enc -bf-cbc -pbkdf2 -in msg -out bf-cbc.chiffre 
 q12: 
 	openssl enc  -bf-cbc -d -pbkdf2 -in bf-cbc.chiffre
-
+q13:
+	openssl rc4 -in msg -out msgRC4
+q14:
+	openssl rc4 -in msg -out msgRC4 -k password
+q15: 
+	openssl rc4 -d -in msgRC4
+q16:
+	openssl rc4 -in msg -out msgRC4 -k password -nosalt
+q17: 
+	openssl rc4 -d -in msgRC4 -nosalt
+q18:
+	openssl rc4 -in msg -out msgRC4 -K 2 -iv 40
